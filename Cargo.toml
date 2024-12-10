@@ -1,0 +1,10 @@
+[package]
+name = "rust_socketio_example"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+rust_socketio = { version = "0.6.0", features = ["async"] }
+tokio = { version = "1", features = ["macros", "rt-multi-thread"] }
+env_logger = "0.11.5"
+log = "0.4"
